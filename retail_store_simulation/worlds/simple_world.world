@@ -14,6 +14,7 @@
       </attenuation>
       <direction>-0.5 0.1 -0.9</direction>
     </light>
+
     <model name='ground_plane'>
       <static>1</static>
       <link name='link'>
@@ -62,6 +63,7 @@
         <kinematic>0</kinematic>
       </link>
     </model>
+
     <gravity>0 0 -9.8</gravity>
     <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
     <atmosphere type='adiabatic'/>
@@ -141,6 +143,7 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
+
       <model name='table_0'>
         <pose frame=''>2.11403 0.023827 0 0 -0 1.57</pose>
         <scale>1 1 1</scale>
@@ -151,10 +154,12 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
+
       <light name='sun'>
         <pose frame=''>0 0 10 0 -0 0</pose>
       </light>
     </state>
+
     <gui fullscreen='0'>
       <camera name='user_camera'>
         <pose frame=''>-1.53868 1.73242 2.30858 0 0.3898 -0.740846</pose>
@@ -162,6 +167,7 @@
         <projection_type>perspective</projection_type>
       </camera>
     </gui>
+
     <model name='table_0'>
       <static>1</static>
       <link name='link'>
@@ -359,6 +365,7 @@
       </link>
       <pose frame=''>2.72202 -1.82471 0 0 -0 0</pose>
     </model>
+
     <model name='aruco_cube_333'>
       <static>0</static>
       <link name='link'>
